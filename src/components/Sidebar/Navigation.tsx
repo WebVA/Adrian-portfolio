@@ -170,7 +170,7 @@ export function SidebarNavigation() {
       label: 'Online',
       items: [
         {
-          href: 'https://www.linkedin.com/in/ultramcgh/',
+          href: 'https://www.linkedin.com/in/adrian-wang-301238226/',
           label: 'LinkedIn',
           icon: LinkedinIcon,
           trailingAccessory: ExternalLinkIcon,
@@ -180,7 +180,7 @@ export function SidebarNavigation() {
         },
 
         {
-          href: 'https://github.com/yaykek',
+          href: 'https://github.com/webva',
           label: 'GitHub',
           icon: GitHubIcon,
           trailingAccessory: ExternalLinkIcon,

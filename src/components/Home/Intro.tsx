@@ -58,22 +58,34 @@ function SectionContainer(props) {
 
 const workHistory = [
   {
-    href: 'https://posit.co/',
-    title: 'RStudio (now Posit)',
-    subtitle: 'Senior Software Engineer',
-    date: '2020—23',
+    href: 'https://www.linkedin.com/company/74477921/',
+    title: 'WebVA LTD',
+    subtitle: 'Self-employed - CTO, Lead Developer',
+    date: '2022—present',
   },
   {
-    href: 'https://www.wunderkind.co/',
-    title: 'BounceX (now Wunderkind)',
-    subtitle: 'Senior Go & React Developer',
-    date: '2016—20',
+    href: 'https://tcg.world/',
+    title: 'TCG World',
+    subtitle: 'Senior Blockchain Developer',
+    date: '2022—23',
   },
   {
-    href: 'https://www.google.com/',
-    title: 'Google',
-    subtitle: 'Go and Node.js Backend Engineer',
-    date: '2014—16',
+    href: 'https://sonsofmars.io/',
+    title: 'Sons Of Mars LTD',
+    subtitle: 'Senior Full Stack Blockchain Developer',
+    date: '2021—22',
+  },
+  {
+    href: 'https://notebooktherapy.com/',
+    title: 'NotebookTherapy LTD',
+    subtitle: 'Full Stack Developer',
+    date: '2017—20',
+  },
+  {
+    href: 'https://lexarglobal.com/',
+    title: 'Lexarglobal LTD',
+    subtitle: 'Junior Web Developer',
+    date: '2013—16',
   },
 ]
 
@@ -100,7 +112,7 @@ export function Intro() {
             <SectionContent>
               <div className="prose text-primary">
                 <p>
-                  Hey, I&apos;m Eric. I&apos;m a solutions architect,{' '}
+                  Hey, I&apos;m Adrian. I&apos;m a solutions architect,{' '}
                   <Link href="/writing" passHref>
                     blog writer
                   </Link>
@@ -112,7 +124,7 @@ export function Intro() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/yaykek"
+                    href="https://github.com/webva"
                   >
                     software engineer
                   </a>
@@ -121,6 +133,39 @@ export function Intro() {
                   React during my personal free time.
                 </p>
 
+                <p>
+                  As an experienced Full Stack Developer with over 10 years of
+                  expertise in multiple programming languages including Java/JS,
+                  Angular, Vue, React, Node, Python, PHP, Ruby, Golang, .NET, and
+                  C/C++/C#.
+                </p>
+                <p>
+                  I have successfully led the development of
+                  Notebooktherapy, a top-performing Shopify website ranked 9th in
+                  the world in terms of revenue.
+                </p>
+                <p>
+                  Throughout my career, I have also led
+                  and contributed to several other successful projects, taking on
+                  various roles including lead developer, DevOps, and project manager
+                  within globally dispersed teams.
+                </p>
+                <p>
+                  My technical proficiency is matched by my strong problem-solving
+                  skills, excellent communication, and a collaborative approach to
+                  work.
+                </p>
+                <p>
+                  I am committed to delivering high-quality solutions, ensuring
+                  adherence to industry best practices, and continuously improving
+                  my skillset to stay up-to-date with the latest technologies and
+                  trends.
+                </p>
+                <p>
+                  I look forward to leveraging my expertise and experience to
+                  contribute to your organization's success.
+                </p>
+{/* 
                 <p>
                   I have played several roles with some cutting-edge programming
                   technologies including{' '}
@@ -194,7 +239,7 @@ export function Intro() {
                   listening classical musics 🎶, playing pingpong 🏓, or walking
                   a park 🏞️ with a family of my dogs 🐶 whether alone or with my
                   family or my friends.
-                </p>
+                </p> */}
               </div>
             </SectionContent>
           </SectionContainer>
@@ -220,20 +265,20 @@ export function Intro() {
           </SectionContainer>
 
           <SectionContainer>
-            <SectionTitle>Where</SectionTitle>
+            <SectionTitle>My Location</SectionTitle>
             <SectionContent>
               <div style={{ height: '360px' }}>
-                <Map lat={41.67503} lng={-87.63665} zoom={9} />
+                <Map lat={52.63422} lng={-1.13852} zoom={9} />
               </div>
               <p className="flex items-center justify-end pt-2 space-x-2 text-sm text-quaternary md:text-right">
                 <MapPin size={12} />
-                <span>Chicago, IL</span>
+                <span>Leicester, England</span>
               </p>
             </SectionContent>
           </SectionContainer>
 
           <SectionContainer>
-            <SectionTitle>Work</SectionTitle>
+            <SectionTitle>Work Experience</SectionTitle>
             <SectionContent>
               <div className="flex flex-col space-y-3">
                 {workHistory.map((job) => (

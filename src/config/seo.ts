@@ -3,18 +3,18 @@ export const baseUrl =
 export const baseEmail = 'ultra.mcgh@gmail.com'
 
 export const defaultSEO = {
-  title: 'Eric Mcghee',
+  title: 'Adrian Wang',
   description:
     'Solutions architect, blog writer, software tinkerer, and software engineer in Chicago.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: baseUrl,
-    site_name: 'Eric Mcghee',
+    site_name: 'Adrian Wang',
     images: [
       {
         url: `${baseUrl}/static/og/default.png`,
-        alt: 'Eric Mcghee',
+        alt: 'Adrian Wang',
       },
     ],
   },

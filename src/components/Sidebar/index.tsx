@@ -23,7 +23,7 @@ export function Sidebar() {
         <TitleBar
           scrollContainerRef={scrollContainerRef}
           leadingAccessory={null}
-          title="Eric Mcghee"
+          title="Adrian Wang"
         />
         <SidebarNavigation />
         <UserFooter />

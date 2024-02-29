@@ -56,13 +56,13 @@ module.exports = {
       },
       {
         source: '/linkedin',
-        destination: 'https://www.linkedin.com/in/ultramcgh/',
+        destination: 'https://www.linkedin.com/in/adrian-wang-301238226/',
         permanent: true,
         basePath: false,
       },
       {
         source: '/github',
-        destination: 'https://github.com/yaykek',
+        destination: 'https://github.com/webva',
         permanent: true,
         basePath: false,
       }
