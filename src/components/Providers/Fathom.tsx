@@ -6,7 +6,7 @@ export function FathomProvider() {
   const router = useRouter()
   useEffect(() => {
     Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-      includedDomains: ['ultramcgh.vercel.app'],
+      includedDomains: ['adrian-portfolio-two.vercel.app'],
       excludedDomains: ['vercel.app,localhost'],
       spa: 'auto',
     })

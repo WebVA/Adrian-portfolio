@@ -22,7 +22,7 @@ function LinkRenderer({ href, ...rest }: any) {
   }
   try {
     const url = new URL(href)
-    if (url.origin === 'https://ultramcgh.vercel.app') {
+    if (url.origin === 'https://adrian-portfolio-two.vercel.app') {
       return <Link href={href} {...rest} />
     }
     return <a target="_blank" rel="noopener" href={href} {...rest} />
