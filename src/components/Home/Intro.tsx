@@ -136,36 +136,36 @@ export function Intro() {
                 <p>
                   As an experienced Full Stack Developer with over 10 years of
                   expertise in multiple programming languages including Java/JS,
-                  Angular, Vue, React, Node, Python, PHP, Ruby, Golang, .NET, and
-                  C/C++/C#.
+                  Angular, Vue, React, Node, Python, PHP, Ruby, Golang, .NET,
+                  and C/C++/C#.
                 </p>
                 <p>
-                  I have successfully led the development of
-                  Notebooktherapy, a top-performing Shopify website ranked 9th in
-                  the world in terms of revenue.
+                  I have successfully led the development of Notebooktherapy, a
+                  top-performing Shopify website ranked 9th in the world in
+                  terms of revenue.
                 </p>
                 <p>
-                  Throughout my career, I have also led
-                  and contributed to several other successful projects, taking on
-                  various roles including lead developer, DevOps, and project manager
-                  within globally dispersed teams.
+                  Throughout my career, I have also led and contributed to
+                  several other successful projects, taking on various roles
+                  including lead developer, DevOps, and project manager within
+                  globally dispersed teams.
                 </p>
                 <p>
-                  My technical proficiency is matched by my strong problem-solving
-                  skills, excellent communication, and a collaborative approach to
-                  work.
+                  My technical proficiency is matched by my strong
+                  problem-solving skills, excellent communication, and a
+                  collaborative approach to work.
                 </p>
                 <p>
                   I am committed to delivering high-quality solutions, ensuring
-                  adherence to industry best practices, and continuously improving
-                  my skillset to stay up-to-date with the latest technologies and
-                  trends.
+                  adherence to industry best practices, and continuously
+                  improving my skillset to stay up-to-date with the latest
+                  technologies and trends.
                 </p>
                 <p>
                   I look forward to leveraging my expertise and experience to
                   contribute to your organization's success.
                 </p>
-{/* 
+                {/* 
                 <p>
                   I have played several roles with some cutting-edge programming
                   technologies including{' '}
