@@ -1,11 +1,10 @@
-export const baseUrl =
-  process.env.NODE_ENV === 'production' ? 'https://adrian-portfolio-two.vercel.app' : ''
-export const baseEmail = 'ultra.mcgh@gmail.com'
+export const baseUrl = process.env.NODE_ENV === 'production' ? 'https://adrian-portfolio-two.vercel.app' : ''
+export const baseEmail = 'adrianwang224@gmail.com'
 
 export const defaultSEO = {
   title: 'Adrian Wang',
   description:
-    'Solutions architect, blog writer, software tinkerer, and software engineer in Chicago.',
+    'Solutions architect, blog writer, software tinkerer, and software engineer in Leicester.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
