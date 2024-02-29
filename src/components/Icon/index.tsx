@@ -122,31 +122,84 @@ export function WunderkindIcon() {
   )
 }
 
-
 export function PlaysunderIcon() {
   return (
-    <svg width="40" height="31" viewBox="0 0 40 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31.2372 30.1196H3.15498L0.361328 27.326V22.6354H5.7072L7.29371 24.0495H28.4436L31.2372 26.8086V30.1196ZM37.2384 30.1196H33.9274V23.7187L29.5817 18.5696H8.39738L0.361328 10.568V0.880371H3.67232L6.43147 3.67402V8.08476L10.7771 12.4304H31.9615L39.9975 20.432V27.326L37.2384 30.1196ZM39.9975 6.95052H12.3637L9.60451 4.15687V0.880371H37.2384L39.9975 3.67402V6.95052Z" fill="#FF003C"></path></svg>
+    <svg
+      width="40"
+      height="31"
+      viewBox="0 0 40 31"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.2372 30.1196H3.15498L0.361328 27.326V22.6354H5.7072L7.29371 24.0495H28.4436L31.2372 26.8086V30.1196ZM37.2384 30.1196H33.9274V23.7187L29.5817 18.5696H8.39738L0.361328 10.568V0.880371H3.67232L6.43147 3.67402V8.08476L10.7771 12.4304H31.9615L39.9975 20.432V27.326L37.2384 30.1196ZM39.9975 6.95052H12.3637L9.60451 4.15687V0.880371H37.2384L39.9975 3.67402V6.95052Z"
+        fill="#FF003C"
+      ></path>
+    </svg>
   )
 }
 
 export function ClearscoreIcon() {
   return (
-    <svg className="navigationLogo--nUCvI large--Oz_op" viewBox="0 0 317.94 41.06"><g id="Logomarks"><path d="M2.39.44V23.38a12.15,12.15,0,0,1,6.9,0v-16H33.65V31.7h-16a12.37,12.37,0,0,1,.5,3.46,12.17,12.17,0,0,1-.5,3.44H40.55V.44Z"></path><circle cx="5.84" cy="35.16" r="5.38"></circle></g></svg>
+    <svg
+      className="navigationLogo--nUCvI large--Oz_op"
+      viewBox="0 0 317.94 41.06"
+    >
+      <g id="Logomarks">
+        <path d="M2.39.44V23.38a12.15,12.15,0,0,1,6.9,0v-16H33.65V31.7h-16a12.37,12.37,0,0,1,.5,3.46,12.17,12.17,0,0,1-.5,3.44H40.55V.44Z"></path>
+        <circle cx="5.84" cy="35.16" r="5.38"></circle>
+      </g>
+    </svg>
   )
 }
 
 export function ClipfinanceIcon() {
   return (
-    <svg width="1em" height="1em" viewBox="0 0 29 38" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.543 35.95c-2 2-5.3 2-7.3 0l-13.3-13.3c-2-2-2-5.3 0-7.3s5.3-2 7.3 0l13.3 13.3c2 2 2 5.3 0 7.3Z" fill="#2718BA"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M22.543 2.05c2 2 2 5.3 0 7.3l-13.3 13.3c-2 2-5.3 2-7.3 0s-2-5.3 0-7.3l13.3-13.3c2-2 5.3-2 7.3 0Z" fill="#B43BF7"></path><path fill-rule="evenodd" clip-rule="evenodd" d="m9.243 22.65 3.7-3.7-3.7-3.7c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3c2 2.1 5.3 2.1 7.3.1ZM23.143 24.15c-2.9 0-5.2-2.3-5.2-5.2 0-2.9 2.3-5.2 5.2-5.2 2.9 0 5.2 2.3 5.2 5.2 0 2.9-2.4 5.2-5.2 5.2Z" fill="#7C2DDF"></path></svg>
+    <svg
+      width="1em"
+      height="1em"
+      viewBox="0 0 29 38"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M22.543 35.95c-2 2-5.3 2-7.3 0l-13.3-13.3c-2-2-2-5.3 0-7.3s5.3-2 7.3 0l13.3 13.3c2 2 2 5.3 0 7.3Z"
+        fill="#2718BA"
+      ></path>
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M22.543 2.05c2 2 2 5.3 0 7.3l-13.3 13.3c-2 2-5.3 2-7.3 0s-2-5.3 0-7.3l13.3-13.3c2-2 5.3-2 7.3 0Z"
+        fill="#B43BF7"
+      ></path>
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="m9.243 22.65 3.7-3.7-3.7-3.7c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3c2 2.1 5.3 2.1 7.3.1ZM23.143 24.15c-2.9 0-5.2-2.3-5.2-5.2 0-2.9 2.3-5.2 5.2-5.2 2.9 0 5.2 2.3 5.2 5.2 0 2.9-2.4 5.2-5.2 5.2Z"
+        fill="#7C2DDF"
+      ></path>
+    </svg>
   )
 }
 
 export function xExchangeIcon() {
   return (
-    <svg width="1em" height="1em" viewBox="0 0 29 38" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.6029 12.7009L29.4425 5.92861L27.2839 1.83252L15.527 6.52732C15.2242 6.64837 14.8886 6.64837 14.5859 6.52732L2.82557 1.83252L0.666992 5.92861L13.5066 12.7009L0.666992 19.4699L2.82557 23.566L14.5826 18.8712C14.8853 18.7502 15.2209 18.7502 15.5236 18.8712L27.2807 23.566L29.4392 19.4699L16.5996 12.6976L16.6029 12.7009Z" fill="#3364F6"></path></svg>
+    <svg
+      width="1em"
+      height="1em"
+      viewBox="0 0 29 38"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.6029 12.7009L29.4425 5.92861L27.2839 1.83252L15.527 6.52732C15.2242 6.64837 14.8886 6.64837 14.5859 6.52732L2.82557 1.83252L0.666992 5.92861L13.5066 12.7009L0.666992 19.4699L2.82557 23.566L14.5826 18.8712C14.8853 18.7502 15.2209 18.7502 15.5236 18.8712L27.2807 23.566L29.4392 19.4699L16.5996 12.6976L16.6029 12.7009Z"
+        fill="#3364F6"
+      ></path>
+    </svg>
   )
 }
-
 
 export function PositIcon() {
   return (

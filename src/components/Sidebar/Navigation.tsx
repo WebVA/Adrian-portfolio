@@ -118,7 +118,7 @@ export function SidebarNavigation() {
           trailingAction: null,
           isExternal: true,
         },
-        
+
         {
           href: 'https://playsunder.gg/',
           label: 'Playsunder',
@@ -188,7 +188,7 @@ export function SidebarNavigation() {
           trailingAction: null,
           isExternal: true,
         },
-        
+
         {
           href: '/security',
           label: 'Security Checklist',
