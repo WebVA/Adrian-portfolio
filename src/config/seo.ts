@@ -1,4 +1,5 @@
-export const baseUrl = process.env.NODE_ENV === 'production' ? 'https://adrian-portfolio-two.vercel.app' : ''
+export const baseUrl =
+  process.env.NODE_ENV === 'production' ? 'https://adrian-portfolio-two.vercel.app' : ''
 export const baseEmail = 'ultra.mcgh@gmail.com'
 
 export const defaultSEO = {
