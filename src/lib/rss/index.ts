@@ -7,7 +7,7 @@ export async function generateRSS(posts) {
   const date = new Date()
   const updated = new Date(posts[0].publishedAt)
   const author = {
-    name: 'Eric Mcghee',
+    name: 'Adrian Wang',
     email: baseEmail,
     link: baseUrl,
   }
@@ -20,7 +20,7 @@ export async function generateRSS(posts) {
     language: 'en',
     image: `${baseUrl}/static/meta/icon-512.png`,
     favicon: `${baseUrl}/static/favicon.ico`,
-    copyright: `All rights reserved ${date.getFullYear()}, Eric Mcghee`,
+    copyright: `All rights reserved ${date.getFullYear()}, Adrian Wang`,
     updated,
     feedLinks: {
       rss2: `${baseUrl}/writing/rss`,
