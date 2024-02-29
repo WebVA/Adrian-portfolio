@@ -8,6 +8,8 @@ import {
   AMAIcon,
   AppDissectionIcon,
   BookmarksIcon,
+  ClearscoreIcon,
+  ClipfinanceIcon,
   CritIcon,
   ExternalLinkIcon,
   FigmaIcon,
@@ -16,11 +18,13 @@ import {
   HackerNewsIcon,
   HomeIcon,
   LinkedinIcon,
+  PlaysunderIcon,
   PositIcon,
   SecurityChecklistIcon,
   StackIcon,
   WritingIcon,
   WunderkindIcon,
+  xExchangeIcon,
 } from '~/components/Icon'
 import { useViewerQuery } from '~/graphql/types.generated'
 
@@ -106,9 +110,19 @@ export function SidebarNavigation() {
       label: 'Projects',
       items: [
         {
-          href: 'https://posit.co/',
-          label: 'Posit',
+          href: 'https://tcg.world',
+          label: 'TCG World',
           icon: PositIcon,
+          trailingAccessory: ExternalLinkIcon,
+          isActive: false,
+          trailingAction: null,
+          isExternal: true,
+        },
+        
+        {
+          href: 'https://playsunder.gg/',
+          label: 'Playsunder',
+          icon: PlaysunderIcon,
           trailingAccessory: ExternalLinkIcon,
           isActive: false,
           trailingAction: null,
@@ -116,8 +130,18 @@ export function SidebarNavigation() {
         },
 
         {
-          href: 'https://www.wunderkind.co/',
-          label: 'Wunderkind',
+          href: 'https://www.clearscore.com/',
+          label: 'Clearscore',
+          icon: ClearscoreIcon,
+          trailingAccessory: ExternalLinkIcon,
+          isActive: false,
+          trailingAction: null,
+          isExternal: true,
+        },
+
+        {
+          href: 'https://www.lecollectionist.com/en',
+          label: 'Lecollectionist',
           icon: WunderkindIcon,
           trailingAccessory: ExternalLinkIcon,
           isActive: false,
@@ -126,15 +150,45 @@ export function SidebarNavigation() {
         },
 
         {
-          href: 'https://www.google.com/',
-          label: 'Google',
-          icon: GoogleIcon,
+          href: 'https://florafantasy.gucci.com/',
+          label: 'Florafantasy Gucci',
+          icon: WunderkindIcon,
           trailingAccessory: ExternalLinkIcon,
           isActive: false,
           trailingAction: null,
           isExternal: true,
         },
 
+        {
+          href: 'https://notebooktherapy.com/',
+          label: 'Notebooktherapy',
+          icon: WunderkindIcon,
+          trailingAccessory: ExternalLinkIcon,
+          isActive: false,
+          trailingAction: null,
+          isExternal: true,
+        },
+
+        {
+          href: 'https://xexchange.com/',
+          label: 'xExchange',
+          icon: xExchangeIcon,
+          trailingAccessory: ExternalLinkIcon,
+          isActive: false,
+          trailingAction: null,
+          isExternal: true,
+        },
+
+        {
+          href: 'https://www.clip.finance/',
+          label: 'Clip Finance',
+          icon: ClipfinanceIcon,
+          trailingAccessory: ExternalLinkIcon,
+          isActive: false,
+          trailingAction: null,
+          isExternal: true,
+        },
+        
         {
           href: '/security',
           label: 'Security Checklist',
