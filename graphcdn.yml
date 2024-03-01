@@ -40,4 +40,4 @@ rules:
     maxAge: 2592000
     swr: 2592000
     scope: AUTHENTICATED
-originUrl: 'https://adrian-portfolio-two.vercel.app/api/graphql'
+originUrl: 'https://adrian-portfolio-24.vercel.app/api/graphql'

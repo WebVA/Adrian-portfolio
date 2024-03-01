@@ -1,6 +1,6 @@
 export const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://adrian-portfolio-two.vercel.app'
+    ? 'https://adrian-portfolio-24.vercel.app'
     : ''
 export const baseEmail = 'adrianwang224@gmail.com'
 
