@@ -126,7 +126,7 @@ export function Intro() {
                     rel="noopener noreferrer"
                     href="https://github.com/webva"
                   >
-                    software engineer
+                    software engineer, blockchain developer
                   </a>
                   . I&apos;m building an app, currently it's a secret 🤫, that
                   introduces AI solutions to the blockchain space with Go and
