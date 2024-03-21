@@ -135,9 +135,11 @@ export function Intro() {
 
                 <p>
                   As an experienced Full Stack Developer with over 10 years of
-                  expertise in multiple programming languages including Java/JS,
-                  Angular, Vue, React, Node, Python, PHP, Ruby, Golang, .NET,
-                  and C/C++/C#.
+                  expertise in Web & Blockchain multiple programming languages
+                  including Java/JS, Angular, Vue, React, Node, Python, PHP,
+                  Ruby, Golang, .NET, C/C++/C#, and especially Solidity,
+                  Clarity, Smart Contract, Dapp, Defi, NFT, Metaverse, DEX, CEX,
+                  DAO for Blockchain field and these frameworks.
                 </p>
                 <p>
                   I have successfully led the development of Notebooktherapy, a
